@@ -11,6 +11,7 @@
 
 inline void trace(const char c[])
 {
+    Serial.print("TRACE: ");
     Serial.println(c);
 }
 #else
